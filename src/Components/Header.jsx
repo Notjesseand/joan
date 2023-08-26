@@ -16,7 +16,14 @@ const Header = (sectionId) => {
 
   return (
     <div className="fixed z-30 h-[12vh] md:h-[14vh] bg-[#ececec] w-full flex items-center justify-between mb-[24vh]">
-      <img src={Logo} alt="" className=" h-24 md:h-28 md:px-12" />
+      <img
+        src={Logo}
+        onClick={() => {
+          scrollToSection("hero");
+        }}
+        alt=""
+        className=" h-24 md:h-28 md:px-12"
+      />
       <div className="md:flex space-x-8 w-full justify-center hidden">
         <span
           onClick={() => scrollToSection("hero")}
@@ -74,7 +81,7 @@ const Header = (sectionId) => {
             Contact
           </p>
           <p className="cursor-pointer hover:text-orange-600">Reviews</p>
-          <p className="cursor-pointer hover:text-orange-600">Contacts</p>
+          {/* <p className="cursor-pointer hover:text-orange-600">Contacts</p> */}
         </div>
       )}
     </div>
