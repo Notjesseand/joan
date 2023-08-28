@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="gap-1  w-full mx-auto flex md:inline flex-col text-center md:text-start md:pl-24 items-center">
             <p className="flex text-5xl">THE LATE BLOOMER</p>
             <p className="font-satisfy text-xl font-bold ">A Memoir</p>
-            <p className="mt-4" style={animationStyle}>
+            <p className="mt-3" style={animationStyle}>
               coming soon
             </p>
 
