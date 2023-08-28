@@ -22,7 +22,7 @@ const Header = (sectionId) => {
           scrollToSection("hero");
         }}
         alt=""
-        className=" h-24 md:h-28 md:px-12"
+        className=" h-24 md:h-28 md:px-12 cursor-pointer"
       />
       <div className="md:flex space-x-8 w-full justify-center hidden">
         <span
