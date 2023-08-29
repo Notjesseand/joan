@@ -1,11 +1,14 @@
 import React from "react";
 import {BsArrowRight} from 'react-icons/bs'
-import Book from '../assets/bookModel.png'
+import Book from '../assets/book.png'
 
 const Hero = () => {
    const animationStyle = {
      animation: "bounce 2.5s infinite", // 'bounce' is the animation name defined in CSS
    };
+   const colors = {
+    animation:""
+   }
   return (
     <div id="hero" className=" flex-grow flex pt-[12vh] md:pt-[14vh] ">
       <div className="grid grid-cols-1 md:grid-cols-3 w-full">
@@ -16,6 +19,7 @@ const Hero = () => {
             <p className="mt-3" style={animationStyle}>
               coming soon
             </p>
+            {/* <h1 class="gradient-text">Buchi Gadgets</h1> */}
 
             {/* coming soon button */}
             {/* <div className="mt-5 flex items-center">
@@ -32,7 +36,7 @@ const Hero = () => {
         <div className="bg-slate-900 w-full flex flex-col justify-center py-20 ">
           <img
             src={Book}
-            className=" md:h-3/4 w-auto md:absolute md:-ml-[15%] "
+            className=" md:h-3/4 w-auto md:absolute md:-ml-[15%] rounded-sm"
             alt=""
           />
           {/* <p>THE LATE BLOOMER</p> */}
