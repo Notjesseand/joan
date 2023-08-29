@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="bg-slate-900 w-full flex flex-col justify-center py-20 ">
           <img
             src={Book}
-            className=" md:h-3/4 w-auto md:absolute md:-ml-[15%] rounded-sm"
+            className=" md:h-3/4 w-auto md:absolute md:-ml-[15%] rounded-md"
             alt=""
           />
           {/* <p>THE LATE BLOOMER</p> */}
