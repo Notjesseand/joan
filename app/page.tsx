@@ -128,13 +128,13 @@ export default function Home() {
       <section className="py-32 px-6 bg-primary text-white text-center relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-6xl text-accent mb-6 font-serif">&quot;</div>
+          <div className="text-6xl text-accent font-serif">{"\u201C"}</div>
           <h2 className="text-3xl md:text-5xl font-serif leading-tight mb-8 !text-white">
             Do something for nothing.
           </h2>
-          <p className="text-xl opacity-80 font-light">— Dr. Joan Oji</p>
 
-          <div className="text-6xl text-accent mb-6 font-serif">&quot;</div>
+          <div className="text-6xl text-accent mb-1 font-serif">{"\u201D"}</div>
+          <p className="text-xl opacity-80 font-light">— Dr. Joan Oji</p>
         </div>
       </section>
 
@@ -195,7 +195,7 @@ export default function Home() {
             <h4 className="font-bold text-lg mb-6 text-accent">Contact</h4>
             <ul className="space-y-4 text-white/80">
               <li>Email: info@joanoji.com</li>
-              <li>Lagos, Nigeria</li>
+              <li>Worldwide</li>
               <li className="pt-4 flex gap-4">
                 {/* Social Icons Placeholder */}
                 <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer">In</div>
