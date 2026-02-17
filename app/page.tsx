@@ -18,7 +18,7 @@ export default function Home() {
               <span className="italic text-accent bg-clip-text text-transparent bg-gradient-to-r from-accent to-red-600">Oji</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 max-w-lg leading-relaxed font-light pl-6 border-l-2 border-primary/20">
-              "It is never too late to bloom." A journey of resilience, education, and the power of the human spirit.
+              &quot;The said it was impossible, but I did it anyway.&quot; A journey of resilience, education, and the power of the human spirit.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <Link href="/books" className="btn-primary text-center shadow-lg shadow-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
@@ -74,7 +74,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-serif text-primary">The Late Bloomer</h2>
               <h3 className="text-xl text-accent font-medium uppercase tracking-widest">Her inspiring memoir</h3>
               <p className="text-lg leading-relaxed text-slate-600">
-                From a teenage wife and mother with only a First School Leaving Certificate to earning a Ph.D., Joan Oji's story is a testament to unwavering determination.
+                From a teenage wife and mother with only a First School Leaving Certificate to earning a Ph.D., Joan Oji&apos;s story is a testament to unwavering determination.
               </p>
               <p className="text-lg leading-relaxed text-slate-600">
                 Witness 50 years of marriage, the joy of raising eight daughters, and the pursuit of academic excellence against all odds.
@@ -106,7 +106,7 @@ export default function Home() {
             />
             <ServiceCard 
               title="Editorial Review"
-              description="In-depth analysis of your work's structure, flow, and clarity. Receive constructive feedback to elevate your narrative to professional standards."
+              description="In-depth analysis of your work&apos;s structure, flow, and clarity. Receive constructive feedback to elevate your narrative to professional standards."
               price="From ₦50,000"
               featured={true}
             />
@@ -128,11 +128,13 @@ export default function Home() {
       <section className="py-32 px-6 bg-primary text-white text-center relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="max-w-4xl mx-auto relative z-10">
-          <div className="text-6xl text-accent mb-6 font-serif">"</div>
+          <div className="text-6xl text-accent mb-6 font-serif">&quot;</div>
           <h2 className="text-3xl md:text-5xl font-serif leading-tight mb-8 !text-white">
             Do something for nothing.
           </h2>
           <p className="text-xl opacity-80 font-light">— Dr. Joan Oji</p>
+
+          <div className="text-6xl text-accent mb-6 font-serif">&quot;</div>
         </div>
       </section>
 
