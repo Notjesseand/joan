@@ -17,7 +17,7 @@ export default function Home() {
               Dr. Joan <br />
               <span className="italic text-accent bg-clip-text text-transparent bg-gradient-to-r from-accent to-red-600">Oji</span>
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 max-w-lg leading-relaxed font-light pl-6 border-l-2 border-primary/20">
+            <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed font-light pl-6 border-l-2 border-primary/20">
               &quot;The said it was impossible, but I did it anyway.&quot; A journey of resilience, education, and the power of the human spirit.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">

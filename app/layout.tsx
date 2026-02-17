@@ -1,17 +1,6 @@
 import type { Metadata } from "next";
-import { Montserrat, Playfair_Display } from "next/font/google";
 import "../app/globals.css";
 import Navbar from "@/components/Navbar";
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Joan Oji | Author & Educator",
@@ -25,8 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+      </head>
       <body
-        className={`${montserrat.variable} ${playfair.variable} antialiased`}
+        className="antialiased"
         suppressHydrationWarning
       >
         <Navbar />
