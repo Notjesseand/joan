@@ -134,7 +134,7 @@ export default function Home() {
           </h2>
 
           <div className="text-6xl text-accent mb-1 font-serif">{"\u201D"}</div>
-          <p className="text-xl opacity-80 font-light">— Dr. Joan Oji</p>
+          <p className="text-xl opacity-80 font-light">— Mazi Josiah Oji</p>
         </div>
       </section>
 
