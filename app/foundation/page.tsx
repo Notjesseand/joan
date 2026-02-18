@@ -20,7 +20,7 @@ export default function Foundation() {
             <div className="space-y-6">
                 <h2 className="text-3xl font-serif text-primary font-bold">Our Mission</h2>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                    The Josiah and Joan Oji Foundation for Girls and Teens was established with a singular vision: to dismantle the barriers that prevent children, especially young girls, from reaching their full potential.
+                    We established the Josiah and Joan Oji Foundation for Girls and Teens with a singular vision: to dismantle the barriers that prevent children, especially young girls, from reaching their full potential.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
                     We believe that education is the most powerful weapon which you can use to change the world. Through our various initiatives, we provide scholarship, mentorship, and resources to those who need it most.

@@ -18,14 +18,14 @@ export default function Home() {
               <span className="italic text-accent bg-clip-text text-transparent bg-gradient-to-r from-accent to-red-600">Oji</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed font-light pl-6 border-l-2 border-primary/20">
-              &quot;The said it was impossible, but I did it anyway.&quot; A journey of resilience, education, and the power of the human spirit.
+              &quot;They said it was impossible, but I did it anyway.&quot; My journey of resilience, education, and the power of the human spirit.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <Link href="/books" className="btn-primary text-center shadow-lg shadow-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-                Discover Her Works
+                Discover My Works
               </Link>
               <Link href="/about" className="btn-outline text-center hover:bg-primary/5">
-                Meet Dr. Joan
+                About Me
               </Link>
             </div>
           </div>
@@ -72,12 +72,12 @@ export default function Home() {
             
             <div className="order-1 md:order-2 space-y-8">
               <h2 className="text-4xl md:text-5xl font-serif text-primary">The Late Bloomer</h2>
-              <h3 className="text-xl text-accent font-medium uppercase tracking-widest">Her inspiring memoir</h3>
+              <h3 className="text-xl text-accent font-medium uppercase tracking-widest">My inspiring memoir</h3>
               <p className="text-lg leading-relaxed text-slate-600">
-                From a teenage wife and mother with only a First School Leaving Certificate to earning a Ph.D., Joan Oji&apos;s story is a testament to unwavering determination.
+                From a teenage wife and mother with only a First School Leaving Certificate to earning a Ph.D., my story is a testament to unwavering determination.
               </p>
               <p className="text-lg leading-relaxed text-slate-600">
-                Witness 50 years of marriage, the joy of raising eight daughters, and the pursuit of academic excellence against all odds.
+                Witness 50 years of marriage, the joy of raising eight daughters, and my pursuit of academic excellence against all odds.
               </p> 
               <Link href="/books" className="inline-flex items-center text-primary font-bold hover:text-accent transition-colors gap-2 text-lg border-b-2 border-primary/20 hover:border-accent pb-1">
                 Read Synopsis <span className="text-2xl">→</span>
@@ -94,7 +94,7 @@ export default function Home() {
             <span className="text-accent tracking-[0.2em] uppercase font-bold text-sm">Professional Services</span>
             <h2 className="text-4xl md:text-5xl font-serif text-primary mt-3 mb-6">Literary Excellence</h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              With decades of experience in education and language arts, Dr. Joan Oji offers professional literary services to help others polish their voice and share their stories.
+              With decades of experience in education and language arts, I offer professional literary services to help others polish their voice and share their stories.
             </p>
           </div>
 
@@ -179,7 +179,7 @@ export default function Home() {
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-black tracking-tight">JOAN OJI</h3>
             <p className="text-white/70 max-w-sm">
-              Celebrating a life of resilience, faith, and academic achievement. Inspiring the next generation of leaders.
+              Celebrating a life of resilience, faith, and academic achievement. Inspiring the next generation of leaders — one story at a time.
             </p>
           </div>
           <div>

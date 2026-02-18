@@ -35,33 +35,33 @@ export default function About() {
 
           <h3 className="text-2xl font-serif text-primary mt-12 mb-4">Early Foundations & Resilience</h3>
           <p>
-            Born on June 6, 1957, in Nigeria, Dr. Joan Oji's early life was marked by both love and profound challenge. At the tender age of 11, she lost her father, a pivotal moment that thrust her into a world where resilience became a necessity rather than a choice. Navigating her primary education during the Nigerian Civil War, she learned the value of perseverance amidst uncertainty.
+            I was born on June 6, 1957, in Nigeria. My early life was marked by both love and profound challenge. At the tender age of 11, I lost my father — a pivotal moment that thrust me into a world where resilience became a necessity rather than a choice. Navigating my primary education during the Nigerian Civil War, I learned the value of perseverance amidst uncertainty.
           </p>
 
           <h3 className="text-2xl font-serif text-primary mt-12 mb-4">The Late Bloomer's Journey</h3>
           <p>
-            Joan's path to academic acclaim was unconventional. By the time many of her peers were graduating university, she was deep in the trenches of motherhood and marriage. With only a First School Leaving Certificate initially, and later a Teacher's Grade Two Certificate and NCE, she harbored a burning desire for more.
+            My path to academic acclaim was unconventional. By the time many of my peers were graduating university, I was deep in the trenches of motherhood and marriage. With only a First School Leaving Certificate initially, and later a Teacher's Grade Two Certificate and NCE, I harbored a burning desire for more.
           </p>
           <p>
-            Already a mother of six—and eventually eight—daughters, she took the bold step to enroll at Ahmadu Bello University, Zaria. The whispers of doubt from others only fueled her determination. Balancing the immense responsibilities of a large family and a teaching career, she didn't just survive; she thrived.
+            Already a mother of six — and eventually eight — daughters, I took the bold step to enroll at Ahmadu Bello University, Zaria. The whispers of doubt from others only fueled my determination. Balancing the immense responsibilities of a large family and a teaching career, I didn't just survive; I thrived.
           </p>
 
           <h3 className="text-2xl font-serif text-primary mt-12 mb-4">Academic Excellence</h3>
           <p>
-            Her academic comeback was nothing short of spectacular. Joan Oji graduated with <strong>First Class Honours in Education (Language Arts)</strong>, silencing critics and proving to herself that intellect knows no expiration date. She was awarded the prestigious Dean's Prize for the Best All-Round Graduating Student.
+            My academic comeback was nothing short of spectacular. I graduated with <strong>First Class Honours in Education (Language Arts)</strong>, silencing critics and proving to myself that intellect knows no expiration date. I was awarded the prestigious Dean's Prize for the Best All-Round Graduating Student.
           </p>
           <p>
-            She did not stop there. Her insatiable quest for knowledge led her to obtain her Ph.D., cementing her status as a scholar and a beacon of hope for "late bloomers" everywhere.
+            I did not stop there. My insatiable quest for knowledge led me to obtain my Ph.D., cementing my place as a scholar and, I hope, a beacon of hope for "late bloomers" everywhere.
           </p>
 
           <h3 className="text-2xl font-serif text-primary mt-12 mb-4">Family & Legacy</h3>
           <p>
-            Beyond her degrees, Dr. Oji celebrates over 50 years of marriage. She has successfully raised eight daughters who are blazing their own trails. Her life is a testament to the idea that a woman does not have to choose between family and ambition—she can, with faith and grit, embrace both.
+            Beyond my degrees, I celebrate over 50 years of marriage. I have raised eight daughters who are blazing their own trails. My life is a testament to the idea that a woman does not have to choose between family and ambition — she can, with faith and grit, embrace both.
           </p>
         </div>
 
         <div className="mt-20 pt-12 border-t border-secondary text-center space-y-8">
-            <p className="text-slate-500 italic">Dr. Joan Oji continues to write, teach, and inspire from her home in Nigeria.</p>
+            <p className="text-slate-500 italic">I continue to write, teach, and inspire from my home in Nigeria.</p>
             
             <div className="bg-white p-12 rounded-2xl shadow-lg border border-primary/5 max-w-3xl mx-auto transform hover:-translate-y-1 transition-transform duration-300">
               <h3 className="text-3xl font-serif text-primary mb-4">Interested in inviting Dr. Joan Oji?</h3>
