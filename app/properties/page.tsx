@@ -57,7 +57,7 @@ async function getProperties(): Promise<Property[]> {
         image: "/property2.jpg",
         type: "Rent",
         agent: "Jane Smith",
-        description: "Well-furnished apartment close to schools and shopping centers. Includes parking space."
+        description: "Well-furnished apartment close to schools and shopping centres. Includes parking space."
       },
       {
         id: 3,

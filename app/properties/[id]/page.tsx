@@ -17,7 +17,7 @@ const properties = [
     description: "Beautiful luxury villa with swimming pool, gym, and garden. Located in prestigious Ikoyi area with 24/7 security.",
     features: ["Swimming Pool", "Gym", "Garden", "24/7 Security", "Parking Space", "Smart Home Features"],
     gallery: ["/property1.jpg", "/property2.jpg", "/property3.jpg", "/property4.jpg"],
-    nearby: ["Schools", "Shopping Centers", "Hospitals", "Restaurants"]
+    nearby: ["Schools", "Shopping Centres", "Hospitals", "Restaurants"]
   },
   {
     id: 2,
@@ -30,10 +30,10 @@ const properties = [
     image: "/property2.jpg",
     type: "Rent",
     agent: "Jane Smith",
-    description: "Well-furnished apartment close to schools and shopping centers. Includes parking space.",
+    description: "Well-furnished apartment close to schools and shopping centres. Includes parking space.",
     features: ["Furnished", "Parking Space", "Security", "Balcony", "Modern Kitchen", "Air Conditioning"],
     gallery: ["/property2.jpg", "/property1.jpg", "/property3.jpg", "/property5.jpg"],
-    nearby: ["Schools", "Shopping Centers", "Public Transport", "Restaurants"]
+    nearby: ["Schools", "Shopping Centres", "Public Transport", "Restaurants"]
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const properties = [
     description: "Contemporary townhouse with modern amenities and smart home features.",
     features: ["Smart Home", "Balcony", "Garden", "Parking Space", "Modern Kitchen", "Security"],
     gallery: ["/property3.jpg", "/property1.jpg", "/property4.jpg", "/property6.jpg"],
-    nearby: ["Beach", "Shopping Centers", "Restaurants", "Entertainment"]
+    nearby: ["Beach", "Shopping Centres", "Restaurants", "Entertainment"]
   }
 ];
 
@@ -273,7 +273,7 @@ export default async function PropertyDetail({ params }: { params: { id: string 
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Resources</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-white">Help Center</a></li>
+                <li><a href="#" className="hover:text-white">Help Centre</a></li>
                 <li><a href="#" className="hover:text-white">Partners</a></li>
                 <li><a href="#" className="hover:text-white">Events</a></li>
                 <li><a href="#" className="hover:text-white">Guidelines</a></li>

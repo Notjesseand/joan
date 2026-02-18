@@ -164,7 +164,7 @@ export default function Contact() {
                 <div>
                   <label htmlFor="subject" className="block text-xs font-bold text-slate-500 mb-2 uppercase tracking-widest">Subject</label>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {["General Inquiry", "Speaking", "Book Signing", "Foundation"].map((option, i) => (
+                    {["General Enquiry", "Speaking", "Book Signing", "Foundation"].map((option, i) => (
                       <label key={i} className="cursor-pointer">
                         <input type="radio" name="subject" value={option} className="peer sr-only" defaultChecked={i === 0} />
                         <div className="text-center py-3 px-2 border-2 border-secondary/50 rounded-xl text-sm font-medium text-slate-500 peer-checked:border-accent peer-checked:text-accent peer-checked:bg-accent/5 hover:border-slate-300 transition-all duration-200">

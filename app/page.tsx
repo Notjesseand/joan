@@ -160,8 +160,8 @@ export default function Home() {
             />
              <FeatureCard 
               icon="📚"
-              title="Literacy Programs"
-              text="Organizing reading workshops and donating books to schools to foster a culture of lifelong learning."
+              title="Literacy Programmes"
+              text="Organising reading workshops and donating books to schools to foster a culture of lifelong learning."
             />
           </div>
           
