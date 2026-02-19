@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaLinkedin, FaFacebook } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
               <span className="italic text-accent bg-clip-text text-transparent bg-gradient-to-r from-accent to-red-600">Oji</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed font-light pl-6 border-l-2 border-primary/20">
-              &quot;They said it was impossible, but I did it anyway.&quot; My journey of resilience, education, and the power of the human spirit.
+              &quot;They said it was impossible, I did it anyway.&quot; My journey of resilience, education, and the power of the human spirit.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <Link href="/books" className="btn-primary text-center shadow-lg shadow-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
@@ -197,9 +198,12 @@ export default function Home() {
               <li>Email: info@joanoji.com</li>
               <li>Worldwide</li>
               <li className="pt-4 flex gap-4">
-                {/* Social Icons Placeholder */}
-                <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer">In</div>
-                <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer">X</div>
+                <a href="https://www.linkedin.com/in/joan-oji-934058190" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer text-xl">
+                  <FaLinkedin />
+                </a>
+                <a href="https://web.facebook.com/joan.oji" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer text-xl">
+                  <FaFacebook />
+                </a>
               </li>
             </ul>
           </div>
